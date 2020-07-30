@@ -10,15 +10,14 @@
         </div>
         <div class="logo-name pl-2">
           <h2><b>Quick Outsource & IT</b></h2>
-          <h6>Enterprise Hosting Solutions in Bangladesh</h6>
+          <h6 class="text-muted">Enterprise Hosting Solutions in Bangladesh</h6>
         </div>
       </div>
       <div class="col-md-7">
         <div class="text-right logo-link">
-          <a href="office-location.php"><i class="fas fa-map-marker-alt pl-2"></i> <span class="border-right pr-2"
-              style="letter-spacing: 2px;">Office Location</span></a>
-          <a href="login.php"><i class="fas fa-sign-in-alt pl-2"></i> <span
-              style="letter-spacing: 2px;">Login</span></a>
+          <a href="office-location.php"><i class="fas fa-map-marker-alt pl-2"></i> <span
+              class="border-right pr-2">Office Location</span></a>
+          <a href="login.php"><i class="fas fa-sign-in-alt pl-2"></i> <span>Login</span></a>
         </div>
         <div class="add text-right pt-4">
           <a href="https://www.facebook.com/QuickOutsourceIt/" target="_blank" class="px-2 py-1"
@@ -34,7 +33,7 @@
 
 
 <!--**-- Nav Section Start --**-->
-<section id="nav" class="py-2">
+<section id="nav">
   <nav class="navbar navbar-expand-lg navbar-light text-light">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
