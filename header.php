@@ -102,13 +102,6 @@
 
         <li class="nav-item dropdown">
           <a class="text-light nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Software</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="android.php">Android</a>
-          </div>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="text-light nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reseller</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="domain-reseller.php">Domain Reseller</a>

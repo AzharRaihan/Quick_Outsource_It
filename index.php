@@ -113,59 +113,54 @@
     <div class="container py-5">
       <div class="row">
         <div class="col-md-4">
+          <div class="d-flex pb-3 head text-center">
+            <i class="fas fa-cog"></i>
+            <h5>Enterprise Infrastructure</h5>
+          </div>
           <ul class="list-group mb-3">
-            <li class="list-group-item">
-              <div class="d-flex pb-3 text-center">
-                <i class="fas fa-cog"></i>
-                <h5>Enterprise Infrastructure</h5>
-              </div>
-            </li>
+
             <li class="list-group-item">Tier Datacenters in Bangladesh</li>
             <li class="list-group-item">Gigabit up-link & 10Gbps Cross-connect</li>
             <li class="list-group-item">Dell & SuperMicro Equipment</li>
             <li class="list-group-item">Layer 3 Access switch</li>
             <li class="list-group-item">Enterprise SAS3 12Gbps Storage</li>
             <li class="list-group-item">SSD RAID with 250K+ IOPS</li>
-            <div class="text-center py-3">
-              <a href="#" class="custom-button btn btn">Details</a>
+            <div class="text-center py-3 custom-button">
+              <a href="#" class="btn btn">Details</a>
             </div>
           </ul>
         </div>
         <div class="col-md-4">
           <ul class="list-group mb-3">
-            <li class="list-group-item">
-              <div class="d-flex pb-3">
-                <i class="fab fa-linux"></i>
-                <h5>Linux Hosting</h5>
-              </div>
-            </li>
+            <div class="d-flex pb-3 head">
+              <i class="fab fa-linux"></i>
+              <h5>Linux Hosting</h5>
+            </div>
             <li class="list-group-item">32 Core 64 bit Xeon E5-V3 Processors</li>
             <li class="list-group-item">Powered by Cloud Linux & Litespeed</li>
             <li class="list-group-item">SSD RAID, Gigabit connectivity</li>
             <li class="list-group-item">cPanel & WHM, PHP 5/7, MySQL 5.7 64bit</li>
             <li class="list-group-item">100% uptime guarantee</li>
             <li class="list-group-item">Optimized for Joomla, Wordpress etc</li>
-            <div class="text-center py-3">
-              <a href="#" class="custom-button btn btn">Details</a>
+            <div class="text-center py-3 custom-button">
+              <a href="#" class=" btn btn">Details</a>
             </div>
           </ul>
         </div>
         <div class="col-md-4">
+          <div class="d-flex pb-3 head">
+            <i class="fab fa-windows"></i>
+            <h5>Windows Hosting</h5>
+          </div>
           <ul class="list-group mb-3">
-            <li class="list-group-item">
-              <div class="d-flex pb-3">
-                <i class="fab fa-windows"></i>
-                <h5>Windows Hosting</h5>
-              </div>
-            </li>
             <li class="list-group-item">32 Core 64 bit Xeon E5-V3 Processors</li>
             <li class="list-group-item">Gigabit Connectivity</li>
             <li class="list-group-item">SSD RAID, 250K IOPS</li>
             <li class="list-group-item">IIS 10 & SQL 2016 on Windows 2016</li>
             <li class="list-group-item">ASP.NET 4.5, MVC 3, 4 & 5 with Razor</li>
             <li class="list-group-item">Direct Access to SQL Server over VPN etc.</li>
-            <div class="text-center py-3">
-              <a href="#" class="custom-button btn btn">Details</a>
+            <div class="text-center py-3 custom-button">
+              <a href="#" class="btn btn">Details</a>
             </div>
           </ul>
         </div>
@@ -483,11 +478,12 @@
   </section>
   <!--**-- Media Covarage Section End --**-->
 
+
   <!--**-- Article Section Start --**-->
   <section id="article">
     <!-- Article section-->
     <div class="container py-5">
-      <h1 class="text-center px-5" style="color:#021238;">Host with the Leading Web Hosting Company in Bangladesh</h1>
+      <h1 class="text-center px-5">Host with the Leading Web Hosting Company in Bangladesh</h1>
       <p class="text-center px-5 pt-4">Quick Outsource & IT has brought the best Web Hosting Technologies to Bangladesh
         for 19 years! Whether you are looking to host a Website for your business, or you are a corporation looking to
         run your mission-critical applications, Quick Outsource & IT's multi-server state-of-the-art Hosting
@@ -504,7 +500,7 @@
   <!--**-- Hosting Flatform Start --**-->
   <section id="hosting-flatform">
     <div class="container py-5">
-      <h1 class="text-center" style="#021238;">Best Linux & Windows Hosting Platforms</h1>
+      <h1 class="text-center">Best Linux & Windows Hosting Platforms</h1>
       <p class="text-center py-2">You can choose to Host on Quick Outsource & IT's cPanel, CloudLinux & Litespeed
         powered Linux Hosting platform or Windows 2019 & SQL Server 2017 powered ASP.NET Hosting & MVC (Razor) Platform.
         Our windows hosting platform also supports .Net Core 3.0 hosting. Quick Outsource & IT's hosting infrastructure
@@ -637,7 +633,7 @@
   <!--**-- Register Manage Section Start --**-->
   <section id="register-manage">
     <div class="container py-5">
-      <h1 class="text-center py-4" style="color:#021238;">Register & Manage your Domain Names</h1>
+      <h1 class="text-center py-4">Register & Manage your Domain Names</h1>
       <p class="text-center px-5"> <b>Manage your Domain Portfolio with a bulk Domain Account From Quick Outsource &
           IT.</b> You can register your Domain names anytime and anywhere instantly at a discounted price. There are
         over 1,500 domain extensions available now besides the common .com, .net, .org, .info etc. Thousands of Domains
@@ -721,7 +717,7 @@
             For CSE Student</h4>
         </div>
         <div class="col-md-2 text-center">
-          <i class="fas fa-user-graduate" style="font-size: 80px; color:#2D0D2F;"></i>
+          <i class="fas fa-user-graduate"></i>
         </div>
         <div class="col-md-5">
           <p class="pt-4">Get a 50% Discount on any Hosting package. If you are an active Computer or Electronics
@@ -740,7 +736,7 @@
   <!--**-- Web Design Section Start --**-->
   <section id="web-design">
     <div class="container py-5">
-      <h1 class="text-center" style=" rgb(2, 16, 54);">Website Design for Business & Corporates</h1>
+      <h1 class="text-center">Website Design for Business & Corporates</h1>
       <p class="text-center">Get your business online with a professionally designed, modern, mobile-friendly Website.
         Quick Outsource & IT's experienced Web Design team will study your requirements and design a Website that
         creates a credible presence for your business on the Internet. Whether you are looking for a CMS based on Joomla

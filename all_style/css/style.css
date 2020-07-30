@@ -22,6 +22,25 @@
 /* ===============> **Font-Family Css End** <==============*/
 
 /* ===============> Base Css Start <======================*/
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn:focus {
+
+    box-shadow: none;
+}
+
+.custom-button a {
+    background-color: #004052;
+    color: white;
+}
+
+.custom-button a:hover {
+    background-color: #075b72;
+    color: white;
+
+}
 
 /* ===============> Base Css End <======================*/
 
@@ -64,7 +83,6 @@ a {
 }
 
 .navbar {
-
     padding: 0rem;
 }
 
@@ -182,22 +200,28 @@ a {
     padding-left: 0;
 }
 
-#linux-windows .custom-button {
-    border: 1px solid #01afce;
-    color: #004052;
-
-}
-
-#linux-windows .custom-button:hover {
-    background-color: #004052;
-    color: whitesmoke;
-
-}
 
 #linux-windows .list-group {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 
+}
+
+#linux-windows .head {
+    background-color: #004052;
+    color: white;
+    padding: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+}
+
+#linux-windows .head i {
+    color: white;
 }
 
 /* ======= Windows and linux Section Css End =========*/
