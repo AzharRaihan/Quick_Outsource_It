@@ -141,11 +141,6 @@ a {
 
 }
 
-#register-domain .custom-button {
-    border: 2px solid #01afce;
-
-
-}
 
 
 
@@ -239,16 +234,6 @@ a {
 
 }
 
-#watch-pannel .custom-button a {
-    color: white;
-
-}
-
-#watch-pannel .custom-button a:hover {
-    background-color: #004052;
-    color: white;
-
-}
 
 /* ======= Watch Panel Section Css End =========*/
 
@@ -280,29 +265,9 @@ a {
     border: 1px solid #01afce;
 }
 
-#hosting-plan .custom-button a {
-    border: 1px solid #01afce;
 
 
-}
 
-#hosting-plan .custom-button a:hover {
-    background-color: #004052;
-    color: whitesmoke;
-
-}
-
-#hosting-plan .packeg_button a {
-    background-color: #01afce;
-    color: white;
-
-}
-
-#hosting-plan .packeg_button a:hover {
-    background-color: #004052;
-    color: white;
-
-}
 
 /* ======= Hosting Section Css End =========*/
 
@@ -328,17 +293,9 @@ a {
 
 
 /* ======= Future clints Section Css Start =========*/
-#future-clints .packeg_button a {
-    background-color: #01afce;
-    color: white;
 
-}
 
-#future-clints .packeg_button a:hover {
-    background-color: #004052;
-    color: white;
 
-}
 
 #future-clints .hr {
     border-bottom: 1px solid #01afce;
@@ -366,34 +323,11 @@ a {
 
 }
 
-#latest-news .custom-button {
-    border: 1px solid #01afce;
-
-
-}
-
-#latest-news .hr {
+] #latest-news .hr {
     border-bottom: 1px solid #01afce;
     width: 400px;
 }
 
-#latest-news .custom-button:hover {
-    background-color: #004052;
-    color: whitesmoke;
-
-}
-
-#latest-news .packeg_button a {
-    background-color: #01afce;
-    color: white;
-
-}
-
-#latest-news .packeg_button a:hover {
-    background-color: #004052;
-    color: white;
-
-}
 
 /* ======= Latest Section Css End =========*/
 
@@ -404,29 +338,6 @@ a {
     width: 500px;
 }
 
-#media-coverage .custom-button {
-    border: 1px solid #01afce;
-    color: #01afce;
-
-}
-
-#media-coverage .custom-button:hover {
-    background-color: #004052;
-    color: whitesmoke;
-
-}
-
-#media-coverage .packeg_button a {
-    background-color: #01afce;
-    color: white;
-
-}
-
-#media-coverage .packeg_button a:hover {
-    background-color: #004052;
-    color: white;
-
-}
 
 /* ======= Media Covarage Section Css End =========*/
 
@@ -508,17 +419,9 @@ a {
 
 }
 
-#telephone-system .packeg_button a {
-    background-color: #01afce;
-    color: white;
 
-}
 
-#telephone-system .packeg_button a:hover {
-    background-color: #004052;
-    color: white;
 
-}
 
 /* ======= Telephone Section Css End =========*/
 
@@ -537,19 +440,11 @@ a {
 
 }
 
-#special-offer .custom-button {
-    border: 1px solid #01afce;
 
 
 
-}
 
-#special-offer .custom-button:hover {
-    border: 1px solid #01afce;
-    background-color: #004052;
-    color: whitesmoke;
 
-}
 
 /* ======= Special Offer Section Css End =========*/
 
@@ -623,16 +518,7 @@ a {
     color: white;
 }
 
-#help-line .custom-button {
-    border: 1px solid #01afce;
-    color: #01afce;
 
-}
-
-#help-line .custom-button:hover {
-    color: whitesmoke;
-
-}
 
 /* ======= Help Line Section Css End =========*/
 

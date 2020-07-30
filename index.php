@@ -187,7 +187,7 @@
         </div>
       </div>
       <div class="custom-button text-center mt-5">
-        <a href="#" class=" btn btn m-auto">See More Videos</a>
+        <a href="#" class=" btn btn">See More Videos</a>
       </div>
     </div>
   </section>
@@ -331,10 +331,10 @@
         </div>
       </div>
     </div>
-    <div class="packeg_button text-center pb-5">
+    <div class="custom-button text-center pb-5">
       <a href="#" class="btn btn">See More Clients</a>
     </div>
-  </section>
+  </section>s
   <!--**-- Future Clients Section End --**-->
 
   <!--**-- Latest News  Section Start --**-->
@@ -352,7 +352,10 @@
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea vitae
                 recusandae pariatur qui dolores earum magni eveniet omnis dolorum voluptas odio exercitationem maiores
                 soluta dolor, voluptates officia nemo excepturi dicta?</p>
-              <a href="#" class="custom-button btn btn">See Profile</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn">See Profile</a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -365,7 +368,9 @@
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea vitae
                 recusandae pariatur qui dolores earum magni eveniet omnis dolorum voluptas odio exercitationem maiores
                 soluta dolor, voluptates officia nemo excepturi dicta?</p>
-              <a href="#" class="custom-button btn btn">See Profile</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn">See Profile</a>
+              </div>
             </div>
           </div>
         </div>
@@ -378,12 +383,14 @@
               <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam ea vitae
                 recusandae pariatur qui dolores earum magni eveniet omnis dolorum voluptas odio exercitationem maiores
                 soluta dolor, voluptates officia nemo excepturi dicta?</p>
-              <a href="#" class="custom-button btn btn">See Profile</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn">See Profile</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="packeg_button pt-4 text-center">
+      <div class="custom-button pt-4 text-center">
         <a href="#" class="btn btn">See More News</a>
       </div>
     </div>
@@ -407,9 +414,9 @@
               <h6><b>05 Janu 2020</b></h6>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate voluptate tempora ad nihil
                 nostrum dolores incidunt labore eius ab!</p>
-              <div class="button-group">
-                <a href="#" class="custom-button btn btn m-2">Read More</a>
-                <a href="#" class="custom-button btn btn m-2">Download as PDF</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn m-2">Read More</a>
+                <a href="#" class="btn btn m-2">Download as PDF</a>
               </div>
             </div>
           </div>
@@ -425,9 +432,9 @@
               <h6><b>05 Janu 2020</b></h6>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate voluptate tempora ad nihil
                 nostrum dolores incidunt labore eius ab!</p>
-              <div class="button-group">
-                <a href="#" class="custom-button btn btn m-2">Read More</a>
-                <a href="#" class="custom-button btn btn m-2">Download as PDF</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn m-2">Read More</a>
+                <a href="#" class="btn btn m-2">Download as PDF</a>
               </div>
             </div>
           </div>
@@ -445,9 +452,9 @@
               <h6><b>05 Janu 2020</b></h6>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate voluptate tempora ad nihil
                 nostrum dolores incidunt labore eius ab!</p>
-              <div class="button-group">
-                <a href="#" class="custom-button btn btn m-2">Read More</a>
-                <a href="#" class="custom-button btn btn m-2">Download as PDF</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn m-2">Read More</a>
+                <a href="#" class="btn btn m-2">Download as PDF</a>
               </div>
             </div>
           </div>
@@ -463,15 +470,15 @@
               <h6><b>05 Janu 2020</b></h6>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio cupiditate voluptate tempora ad nihil
                 nostrum dolores incidunt labore eius ab!</p>
-              <div class="button-group">
-                <a href="#" class="custom-button btn btn m-2">Read More</a>
-                <a href="#" class="custom-button btn btn m-2">Download as PDF</a>
+              <div class="custom-button">
+                <a href="#" class="btn btn m-2">Read More</a>
+                <a href="#" class="btn btn m-2">Download as PDF</a>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="packeg_button text-center">
+      <div class="custom-button text-center">
         <a href="#" class="btn btn my-4">See More News</a>
       </div>
     </div>
@@ -725,8 +732,8 @@
             & IT.</p>
         </div>
       </div>
-      <div class="text-center">
-        <a href="#" class="custom-button btn btn">See More</a>
+      <div class="custom-button">
+        <a href="#" class="btn btn">See More</a>
       </div>
     </div>
   </section>
