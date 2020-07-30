@@ -38,13 +38,20 @@
           </div>
         </div>
         <div class="col-md-6">
-          <div class=" text-center"
+          <div class="container text-center"
             style="height:275px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
-            <p class="py-4" style="letter-spacing: 3px;">NEWSLETTER SUBSCRIPTION</p>
-            <form action="#" method="" class="form-inline justify-content-center px-3">
-              <input type="text" placeholder="Search" class="form-control m-2">
-              <input type="submit" class="btn btn custom-button m-2" value="submit">
-            </form>
+            <h5>NEWSLETTER SUBSCRIPTION</h5>
+            <div class="container">
+              <form class="form-inline" action="" accept-charset="UTF-8" method="">
+                <div class="flex-fill mr-2">
+                  <input type="search" name="search" id="search" value="" placeholder="Search"
+                    class="form-control w-100" aria-label="Search ..this site">
+                </div>
+                <input type="submit" name="commit" value="Search" class="btn btn border text-light"
+                  data-disable-with="Search">
+              </form>
+            </div>
+
             <P class="text-primary py-3"><a href="#" style="text-decoration: none;">Sign up for special offers and
                 discounts</a></P>
           </div>
@@ -60,7 +67,7 @@
     <div class="container py-5">
       <div class="row text-light">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <h6 class="py-2">WEB HOSTING</h6>
+          <h6 class="py-2"><span style="border-bottom: 2px solid #01afce; padding-bottom: 5px;">WEB HOSTING</span></h6>
           <ul>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> ASP.NET & SQL Server Hosting </a></li>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> MVC Hosting with Razor </a></li>
@@ -73,7 +80,8 @@
           </ul>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <h6 class="py-2">DOMAIN REGISTRATION</h6>
+          <h6 class="py-2"><span style="border-bottom: 2px solid #01afce; padding-bottom: 5px;">DOMAIN
+              REGISTRATION</span></h6>
           <ul>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> Register .com, .net, .org Domain </a></li>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> .info, .biz, .mobi, .name </a></li>
@@ -85,7 +93,8 @@
           </ul>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <h6 class="py-2">VIRTUAL SERVERS (VPS)</h6>
+          <h6 class="py-2"><span style="border-bottom: 2px solid #01afce; padding-bottom: 5px;">VIRTUAL SERVERS
+              (VPS)</span></h6>
           <ul>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> VPS Hosting</a></li>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> Managed VPS</a></li>
@@ -97,7 +106,7 @@
           </ul>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3 col-xl-3">
-          <h6 class="py-2">ABOUT</h6>
+          <h6 class="py-2"><span style="border-bottom: 2px solid #01afce; padding-bottom: 5px;">ABOUT</span></h6>
           <ul>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> Company</a></li>
             <li><a href="#"><i class="fas fa-angle-double-right"></i> Founder</a></li>
@@ -120,8 +129,10 @@
   <section id="footer">
     <div class="container py-4">
       <p class="text-center text-light" style="margin-bottom:0px;">All Registered Trademarks, Logo and Brand Names are
-        properties of their respective owners.
-        Copyright © 2001-2020 Quick Outsource & It , Bangladesh. All rights reserved.</p>
+        properties of their respective owners.</p>
+
+      <p class="text-light text-center">Copyright © 2001-2020 Quick Outsource & It , Bangladesh. All rights reserved.
+      </p>
     </div>
   </section>
   <!--**-- Footer Section End --**-->

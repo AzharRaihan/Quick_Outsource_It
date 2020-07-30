@@ -25,6 +25,7 @@
     background-position: center;
     background-attachment: fixed;
     width: 100%;
+    height: 80vh;
   }
 
 
@@ -39,6 +40,10 @@
 
   }
 
+  #about-bg .content {
+    padding-top: 20vh;
+  }
+
   #about-ceo .social-link i {
     font-size: 20px;
     border-radius: 50%;
@@ -47,12 +52,6 @@
     background-color: #4267B2;
     color: white;
     padding-top: 10px;
-  }
-
-  .hr {
-    border-bottom: 2px solid white;
-    width: 600px;
-
   }
   </style>
 </head>
@@ -63,75 +62,67 @@ include('header.php');
 ?>
 
   <section id="about-bg">
-    <div class="container py-5">
-      <h1 class="text-center text-light" style="letter-spacing: 7px;">ABOUT US</h1>
-      <hr class="hr">
-      <p class="text-light text-center" style="letter-spacing: 3px;">Be good, be direct, be better, be adventurous, be
-        genuine.</p>
+    <div class="container content">
+      <h1 class="text-center text-light"><span style="border-bottom: 2px solid #fff; padding-bottom: 5px">About
+          Us</span></h1>
+      <p class="text-light text-center pt-2">Be Good, Be Direct, Be Better, Be Adventurous, Be
+        Genuine.</p>
     </div>
   </section>
 
   <section id="about-ceo">
     <div class="container py-4 text-center">
-      <div class="item img-fluid m-auto pt-5 " style="width: 250px; height: 350px; justify-content: center;">
-        <img src="all_style/img/rishad.png" alt="" class="rounded-circle" style="width: 250px; height: 250px;">
+      <div class="item  m-auto pt-5">
+        <img src="all_style/img/rishad.png" alt="" class="img-fluid rounded-circle">
         <h6 class="text-center mt-3">Name: SM Rishad</h6>
         <h6 class="text-center">Chief Execute Officer(CEO)</h6>
       </div>
       <div class="social-link pt-4">
         <a href="https://www.facebook.com/s.m.rishad" target="_blank"><i class="fab fa-facebook-f text-center"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitter" style="background-color:#33CCFF"></i></a>
-        <a href="https://github.com/rishadblack" target="_blank"><i class="fab fa-github"
-            style="background-color: #000000;"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-google-plus-g" style="background-color: #bb2800;"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/rishadblack" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
       </div>
     </div>
   </section>
   <section id="about">
     <div class="container text-center py-5">
-      <div class="owl-carousel owl-theme pt-3 ml-5">
-        <div class="item img-fluid" style="width: 250px; height: 350px;">
-          <img src="all_style/img/shuvo2.jpg" alt="" class="rounded-circle">
-          <h6 class="text-center mt-3">Name: Mehedi Hasan</h6>
-          <h6 class="text-center">Software Developer</h6>
-          <div class="social-link">
-            <a href="https://www.facebook.com/coder.mehedi" target="_blank"><i
-                class="fab fa-facebook-f text-center"></i></a>
-            <a href="https://twitter.com/mehedi_dnt_fci" target="_blank"><i class="fab fa-twitter"
-                style="background-color:#33CCFF"></i></a>
-            <a href="https://github.com/mh-shuvo" target="_blank"><i class="fab fa-github"
-                style="background-color: #000000;"></i></a>
-            <a href="#" target="_blank"><i class="fab fa-google-plus-g" style="background-color: #bb2800;"></i></a>
-          </div>
-        </div>
-        <div class="item img-fluid" style="width: 250px; height: 350px;">
-          <img src="all_style/img/raihan.jpeg" alt="" class="rounded-circle">
-          <h6 class="text-center mt-3">Name: Azhar Raihan</h6>
-          <h6 class="text-center">Junior Web Developer</h6>
-          <div class="social-link">
-            <a href="https://www.facebook.com/au.shahin.7" target="_blank"><i
-                class="fab fa-facebook-f text-center"></i></a>
-            <a href="https://twitter.com/AzharRa23404657" target="_blank"><i class="fab fa-twitter"
-                style="background-color:#33CCFF"></i></a>
-            <a href="https://github.com/AzharRaihan" target="_blank"><i class="fab fa-github"
-                style="background-color: #000000;"></i></a>
-            <a href="" target="_blank"><i class="fab fa-google-plus-g" style="background-color: #bb2800;"></i></a>
-          </div>
-        </div>
-        <div class="item img-fluid" style="width: 250px; height: 350px;">
-          <img src="all_style/img/sujon2.jpg" alt="" class="rounded-circle">
-          <h6 class="text-center mt-3">Name: Sujon Kumar Sorkar</h6>
-          <h6 class="text-center">Junior Web Developer</h6>
-          <div class="social-link">
-            <a href="https://www.facebook.com/Sujon.Sorkar.www" target="_blank"><i
-                class="fab fa-facebook-f text-center"></i></a>
-            <a href="" target="_blank"><i class="fab fa-twitter" style="background-color:#33CCFF"></i></a>
-            <a href="https://github.com/sujonkumer" target="_blank"><i class="fab fa-github"
-                style="background-color: #000000;"></i></a>
-            <a href="" target="_blank"><i class="fab fa-google-plus-g" style="background-color: #bb2800;"></i></a>
-          </div>
-        </div>
+
+      <img src="all_style/img/shuvo2.jpg" alt="" class="img-fluid rounded-circle">
+      <h6 class="text-center mt-3">Name: Mehedi Hasan</h6>
+      <h6 class="text-center">Software Developer</h6>
+      <div class="social-link">
+        <a href="https://www.facebook.com/coder.mehedi" target="_blank"><i
+            class="fab fa-facebook-f text-center"></i></a>
+        <a href="https://twitter.com/mehedi_dnt_fci" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/mh-shuvo" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+
       </div>
+
+      <img src="all_style/img/raihan.jpeg" alt="" class="img-fluid rounded-circle">
+      <h6 class="text-center mt-3">Name: Azhar Raihan</h6>
+      <h6 class="text-center">Junior Web Developer</h6>
+      <div class="social-link">
+        <a href="https://www.facebook.com/au.shahin.7" target="_blank"><i class="fab fa-facebook-f text-center"></i></a>
+        <a href="https://twitter.com/AzharRa23404657" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/AzharRaihan" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+
+      </div>
+
+      <img src="all_style/img/sujon2.jpg" alt="" class="img-fluid rounded-circle">
+      <h6 class="text-center mt-3">Name: Sujon Kumar Sorkar</h6>
+      <h6 class="text-center">Junior Web Developer</h6>
+      <div class="social-link">
+        <a href="https://www.facebook.com/Sujon.Sorkar.www" target="_blank"><i
+            class="fab fa-facebook-f text-center"></i></a>
+        <a href="" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/sujonkumer" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+      </div>
+    </div>
+    </div>
     </div>
   </section>
   <!--**-- Web Design Section End --**-->
