@@ -75,14 +75,17 @@
   <!--**-- Register Domain Section Start --**-->
   <section id="register-domain">
     <div class="container">
-      <div class="row py-4">
+      <div class="row py-xl-4 py-lg-4 py-md-3 py-sm-2 py-xs-2">
         <div class="col-md-6 text-center">
           <p class="text-light">Register Domain</p>
         </div>
         <div class="col-md-6 text-center">
-          <form action="#" method="" class="form-inline justify-content-center px-3">
-            <input type="text" placeholder="Search" class="form-control m-2">
-            <input type="submit" class="btn btn custom-button m-2" value="submit">
+          <form class="form-inline" action="" accept-charset="UTF-8" method="">
+            <div class="flex-fill mr-2">
+              <input type="search" name="search" id="search" value="" placeholder="Search" class="form-control w-100"
+                aria-label="Search ..this site">
+            </div>
+            <input type="submit" name="commit" value="Search" class="btn btn-primary" data-disable-with="Search">
           </form>
         </div>
       </div>
